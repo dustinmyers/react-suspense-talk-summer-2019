@@ -1,0 +1,105 @@
+export { notes as theme } from "@mdx-deck/themes";
+import { Appear, Notes } from "mdx-deck";
+import "./styles.css";
+
+<img src="./assets/react-week.png" />
+
+---
+
+# Dustin Myers
+
+<div
+  className="contact-info"
+  style={{
+    width: "100vw",
+    display: "flex",
+    justifyContent: "space-around",
+    marginTop: "200px"
+  }}
+>
+  <img src="./assets/Lambda_Logo.png" width="360" />
+  <div style={{ display: "flex", alignItems: "center" }}>
+    <img src="./assets/twitter.png" width="100" />
+    <span style={{ color: "#56ACEE" }}>@dustint314</span>
+  </div>
+</div>
+
+---
+
+<h2>React Suspense</h2>
+
+---
+
+## The _Iceland_ Talk!
+
+<img src="./assets/iceland.jpg" width="600" />
+
+---
+
+#### The day after
+
+<img src="./assets/excited.gif" />
+
+---
+
+### January 2019 (9 months after Iceland)
+
+<img src="./assets/popcorn.gif" />
+
+---
+
+## React 16 Roadmap blogpost
+
+---
+
+<p style={{ textAlign: 'left'}}>React Suspense for data fetching listed as a mid-2019 release</p>
+
+<p style={{ textAlign: 'left'}}>...so, like, right now, right?!?</p>
+
+---
+
+# WRONG!
+
+---
+
+### July 2019
+
+<img src="./assets/anticipation.gif" width="600" />
+
+---
+
+## What even is React Suspense for data fetching?
+
+---
+
+### It's all about user experience
+
+---
+
+### Loading states are hard:
+
+<img src="./assets/facebook-spinner.png" width="250" />
+
+---
+
+<img src="./assets/skeleton.gif" width="600" />
+
+---
+
+## React Suspense
+
+<div style={{ fontSize: 40, textAlign: "left" }}>
+  <ul>
+    <Appear>
+      <li>Makes building loading states _easy_!</li>
+      <li>Handles the tough edge cases</li>
+      <ul>
+        <li>Delayed loading indicator for fast networks</li>
+      </ul>
+      <ul>
+        <li>Multiple unresolved promises</li>
+      </ul>
+      <li>Caches your API calls!</li>
+    </Appear>
+  </ul>
+</div>
