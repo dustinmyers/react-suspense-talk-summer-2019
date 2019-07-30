@@ -6,7 +6,7 @@ import "./styles.css";
 
 ---
 
-# Dustin Myers
+# Dustin Myers 🤓
 
 <div
   className="contact-info"
@@ -17,20 +17,28 @@ import "./styles.css";
     marginTop: "200px"
   }}
 >
-  <img src="./assets/Lambda_Logo.png" width="360" />
-  <div style={{ display: "flex", alignItems: "center" }}>
-    <img src="./assets/twitter.png" width="100" />
+  <img src="./assets/Lambda_Logo.png" width="390" />
+  <div
+    style={{
+      display: "flex",
+      alignItems: "center",
+      justifyContent: "space-around"
+    }}
+  >
+    <img src="./assets/twitter.png" width="80" />
     <span style={{ color: "#56ACEE" }}>@dustint314</span>
   </div>
+  <img src="./assets/conflux-logo.png" width="380" />
 </div>
 
 ---
 
 <h2>React Suspense</h2>
+<h5>(For Data Fetching)</h5>
 
 ---
 
-## The _Iceland_ Talk!
+## The _Iceland_ Talk! 🤯
 
 <img src="./assets/iceland.jpg" width="600" />
 
@@ -42,7 +50,7 @@ import "./styles.css";
 
 ---
 
-### January 2019 (9 months after Iceland)
+### December 2018 (8 months after Iceland)
 
 <img src="./assets/popcorn.gif" />
 
@@ -52,13 +60,13 @@ import "./styles.css";
 
 ---
 
-<p style={{ textAlign: 'left'}}>React Suspense for data fetching listed as a mid-2019 release</p>
+<p style={{ textAlign: 'left', marginLeft: '16px'}}>React Suspense <small style={{ fontSize: '40px'}}>(for data fetching)</small> listed as a mid-2019 release</p>
 
-<p style={{ textAlign: 'left'}}>...so, like, right now, right?!?</p>
+<p style={{ textAlign: 'left', marginLeft: '16px'}}>...so, like, right now, right?!?</p>
 
 ---
 
-# WRONG!
+# 🔥⚠️ WRONG! ⚠️🔥
 
 ---
 
@@ -68,7 +76,13 @@ import "./styles.css";
 
 ---
 
-## What even is React Suspense for data fetching?
+### Grief Stage - Acceptance
+
+<img src="./assets/corbin.gif" width="600" />
+
+---
+
+## What even is React Suspense for data fetching? 🤔
 
 ---
 
@@ -76,9 +90,11 @@ import "./styles.css";
 
 ---
 
-### Loading states are hard:
+### Loading states are hard 😩:
 
-<img src="./assets/facebook-spinner.png" width="250" />
+<Appear>
+  <img src="./assets/facebook-spinner.png" width="250" />
+</Appear>
 
 ---
 
@@ -91,7 +107,7 @@ import "./styles.css";
 <div style={{ fontSize: 40, textAlign: "left" }}>
   <ul>
     <Appear>
-      <li>Makes building loading states _easy_!</li>
+      <li>Makes building loading states easy!</li>
       <li>Handles the tough edge cases</li>
       <ul>
         <li>Delayed loading indicator for fast networks</li>
@@ -103,3 +119,21 @@ import "./styles.css";
     </Appear>
   </ul>
 </div>
+
+---
+
+### What Suspense looks like 🧐:
+
+<Appear>
+  <img src="./assets/suspense.png" width="860" />
+</Appear>
+
+---
+
+### Facebook... We'll be watching you!
+
+<img src="./assets/fallon-watching.gif" />
+
+---
+
+Let's code! 🚀
